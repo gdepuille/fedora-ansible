@@ -2,7 +2,7 @@ FROM fedora:23
 MAINTAINER Gregory DEPUILLE <gregory.depuille@gmail.com>
 
 # Install Ansible
-RUN dnf install -y ansible python-dnf powerline vim \
+RUN dnf install -y ansible python-dnf sudo tar powerline vim \
     && dnf clean all
 
 # Add files
