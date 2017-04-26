@@ -1,5 +1,5 @@
 FROM fedora:23
-MAINTAINER Gregory DEPUILLE <gregory.depuille@gmail.com>
+LABEL maintainer "Gregory DEPUILLE <gregory.depuille@gmail.com>"
 
 # Install Ansible
 RUN dnf install -y ansible python-dnf sudo tar powerline vim \
